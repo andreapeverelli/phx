@@ -1,0 +1,23 @@
+{
+    "name": "andreapeverelli/phx",
+    "description": "A full stack PHP framework",
+    "version": "0.0.1",
+    "type": "framework",
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "AndreaPeverelli\\Phx\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrea Peverelli",
+            "email": "ndrpeverelli@gmail.com"
+        }
+    ],
+    "require": {
+        "predis/predis": "^3.7",
+        "matthiasmullie/minify": "^1.3",
+        "voku/html-min": "^5.0"
+    }
+}
